@@ -1,0 +1,291 @@
+* {
+    margin-top:0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header {
+    width:100%;
+    min-height:65px;
+    background-color: #000;
+    margin: auto;
+    background-attachment: scroll;
+    position: fixed;
+}
+#header ul{
+    margin-left: -42px;
+    float: left;
+    margin-top:18px;
+    display: inline-block;
+    padding-top: 0px;
+    list-style-type: none;
+    margin-right: 20px;
+}
+#header li{
+    display: block;
+
+    text-align:center;
+    float:left;
+    width:100px;
+}
+#header ul li a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    
+    line-height: 20px;
+}
+#header ul li a:hover{
+    text-decoration: underline;
+    color:blue;
+ 
+}
+#header .container img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#header #input{
+    float: left;
+    line-height: 20px;
+    width:350px;
+    margin-top: 18px;
+    font-size: 15px;
+
+}
+
+#header #iconcari{
+    float: left;
+    position: relative;
+    z-index: 1;
+    left: -3%;
+    top: 3px;
+    cursor: pointer;
+  
+
+}
+
+#header #iconcari img{
+    height: 23px;
+    width: 25px;
+}
+#header .container{
+    width:1000px;
+    min-height:65px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+
+}
+#header img{
+    margin-left: 0px;
+    padding-right: 10px;
+    margin-top:18px;
+    float:left;
+    
+}
+
+#wrapper {
+    margin-top: 0px;
+    width:1000px;
+    min-height: 700px;
+    text-align: center;
+   
+  
+    overflow:visible;
+    margin: auto; 
+    
+}
+
+#header2 {
+    width:1000px;
+    min-height:65px;
+    margin: auto;
+    background-attachment: scroll;
+    padding-top: 70px;
+}
+
+#header2 #left{
+    width:700px;
+    min-height:65px;
+    float: left;
+}
+
+#header2 #left img{
+    padding-top: 8px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+#header2 #left a{
+    padding-top: 12px;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    color:rgb(0, 0, 0);
+    padding-right: 20px;
+    line-height: 20px;
+}
+#header2 #left a:hover{
+    text-decoration: underline;
+    color: orangered;
+ 
+}
+#header2 #right{
+    float: right;
+    width:300px;
+    min-height:65px;
+    
+}
+
+#header2 #right img{
+    padding-top: 8px;
+    margin-right: -50px;
+}
+
+#wrapper #right img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper #slider{
+
+    width:1000px;
+    height:500px;
+   
+}
+
+#wrapper #slider img{
+    width:1000px;
+    height: 500px;
+}
+
+#wrapper #slider2{
+
+    width:1000px;
+    height:250px;
+    margin-top: 20px;
+}
+    
+#wrapper #slider2 img{
+    width:1000px;
+    height:250px;
+}
+
+#wrapper #slider2 img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper #slider3{
+
+    width:1000px;
+    height:40px;
+    margin-top: 20px;
+}
+    
+#wrapper #slider3 img{
+    width:1000px;
+    height:40px;
+}
+
+#wrapper #slider3 img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper #brands{
+    margin-top: 80px;
+    width:1000px;
+    min-height:250px;
+}
+
+#wrapper #brands h1{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#wrapper #brands img{
+  
+    float: left;
+    height:70px;
+    margin-left:10px;
+
+}
+
+#wrapper #brands img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper #product{
+    margin-top: 80px;
+    width:1000px;
+    min-height:45px;
+}
+
+#wrapper #product h1{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#wrapper #product img{
+  
+    float: left;
+    height:300px;
+    margin-left:10px;
+    margin-bottom: 20px;
+
+}
+
+#wrapper #product img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper #product .product_site{
+    float:left;
+    width:333px;
+
+}
+#wrapper #product h2{
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+#wrapper #product p{
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 20px;
+
+}
+#wrapper .product_site a h2{
+    font-size: 12;
+    color: rgb(0, 0, 0);
+
+}
+#wrapper .product_site a h2:hover{
+    color:orangered;
+
+}
